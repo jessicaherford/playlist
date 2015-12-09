@@ -1,0 +1,135 @@
+*{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 100;
+}
+body{
+  width: auto;
+}
+
+header{
+  background-color: #9B9B8C;
+  height: 160px;
+}
+header h1{
+  color: #F2F2F0;
+  padding-top: 110px;
+  padding-left: 50px;
+}
+
+#albumHolder{
+ height: 160px;
+ border: black solid 2px;
+ display: inline-block;
+ /*box-sizing: content-box;*/
+ overflow-x: scroll;
+ width: auto;
+ white-space:nowrap;
+ /*items{
+    overflow-x: scroll;
+    width: auto;
+    white-space: nowrap;
+}*/
+}
+
+/*.wrapper {
+		background:#EFEFEF;
+		box-shadow: 1px 1px 10px #999;
+		margin: auto;
+		text-align: center;
+		position: relative;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		margin-bottom: 20px !important;
+		width: 800px;
+		padding-top: 5px;
+	}
+
+.scrolls {
+		overflow-x: scroll;
+		overflow-y: hidden;
+		height: 80px;
+}
+
+.imageDiv {
+		margin: 0;
+		height: 80px;
+    width: 1200px;
+}
+
+.imageDiv img {
+		box-shadow: 1px 1px 10px #999;
+		margin: 2px;
+		max-height: 50px;
+		cursor: pointer;
+    display:inline-block
+}*/
+
+#albumThumbNail{
+  padding: 15px 40px 10px 50px;
+  /*display:inline-block;
+  cursor: pointer;
+  vertical-align: top;*/
+}
+
+.scrolls {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 80px;
+    white-space:nowrap
+}
+.imageDiv img {
+    box-shadow: 1px 1px 10px #999;
+    margin: 2px;
+    max-height: 50px;
+    cursor: pointer;
+    display:inline-block;
+    *display:inline;/* For IE7*/
+    *zoom:1;/* For IE7*/
+    vertical-align:top;
+ }
+
+
+#trackHolder{
+ height: 400px;
+ border: blue solid 2px;
+ padding: 20px;
+}
+
+#tracklist{
+ margin: 30px 95px auto;
+ width: 600px;
+ padding: 150px;
+ border: black solid 2px;
+ background-color: #EEEEEE;
+}
+
+
+
+#clearTracks{
+  margin-left: 100px;
+  margin-right: 20px;
+}
+
+#clearTracks, #submitBin{
+  background-color: #353526;
+  color: #FFF;
+  border-radius: 5px;
+  border: none;
+  height: 30px;
+  width: 160px;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+footer{
+  height: 30px;
+  background-color: #686859;
+  color: #FFF;
+  padding-left: 75px;
+}
+footer p{
+  margin-top: 0px;
+  padding-top: 1px;
+  width: 90%;
+}
