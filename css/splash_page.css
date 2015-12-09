@@ -1,0 +1,58 @@
+/*@font-face {
+  font-family: "Kimberley";
+  src: 'fonts/AvenirNextLTPro-Regualr.otf';
+}*/
+
+
+header{
+  background-color: #9B9B8C;
+  height: 50px;
+  border-bottom: solid 2px #2F2F2E;
+}
+
+
+body{
+  height: 100%;
+}
+
+
+
+section{
+  background-color: #EEEEEE;
+  height: 700px;
+}
+
+.leftMain > h3{
+  margin-top: 0px;
+  display: inline;
+  padding-top: 200px;
+  color: purple;
+}
+
+.leftMain{
+  display: inline;
+  height: 700px;
+}
+
+.rightMain{
+  display: inline;
+}
+
+
+#trainTrack{
+  float: right;
+  opacity: .19;
+  display: inline-block;
+}
+
+footer p{
+  margin-top: 0px;
+  padding-top: 12px;
+}
+footer{
+  background-color: #686859;
+  height: 50px;
+  color: #F0F0EF;
+  padding-left: 75px;
+  font-size: 26px;
+}
