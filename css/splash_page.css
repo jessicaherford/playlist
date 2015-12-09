@@ -13,6 +13,7 @@ header{
 
 body{
   height: 100%;
+  width: 86%;
 }
 
 
@@ -20,22 +21,44 @@ body{
 section{
   background-color: #EEEEEE;
   height: 700px;
-}
-
-.leftMain > h3{
-  margin-top: 0px;
-  display: inline;
-  padding-top: 200px;
-  color: purple;
+  width: 100%;
 }
 
 .leftMain{
   display: inline;
   height: 700px;
+  background-color: blue;
+  width: 50%;
 }
 
+.leftMain > h3{
+  margin-top: 0px;
+  display: inline;
+  color: #4A0064;
+  position: absolute;
+  font-size: 46px;
+  top: 300px;
+  left: 200px;
+  /*right: 10px;*/
+  width: 260px;
+  height: 20px;
+}
+
+.leftMain > button{
+  background-color: #353526;
+  color: #D0D0CD;
+  margin-top: 15px;
+  position: absolute;
+  font-size: 16px;
+  top: 350px;
+  left: 200px;
+  width: 180px;
+  height: 35px;
+  border-radius: 5px;
+}
 .rightMain{
   display: inline;
+  width: 50%;
 }
 
 
