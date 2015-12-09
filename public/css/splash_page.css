@@ -50,7 +50,7 @@ section{
   height: 20px;
 }
 
-.leftMain > button{
+button{
   background-color: #353526;
   color: #D0D0CD;
   margin-top: 35px;
