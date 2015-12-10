@@ -28,6 +28,18 @@ $("#rightImg1").attr("src", "images/" + albums[Math.floor(Math.random() * albums
 $("#rightImg2").attr("src", "images/" + albums[Math.floor(Math.random() * albums.length)]);
 $("#rightImg3").attr("src", "images/" + albums[Math.floor(Math.random() * albums.length)]);
 
+
+
+$('#albumThumbNail1').attr("src", 'images/' + results.results[0].cover_art);
+$('#albumThumbNail2').attr("src", 'images/' + results.results[1].cover_art);
+$('#albumThumbNail3').attr("src", 'images/' + results.results[2].cover_art);
+$('#albumThumbNail4').attr("src", 'images/' + results.results[3].cover_art);
+$('#albumThumbNail5').attr("src", 'images/' + results.results[4].cover_art);
+
+// var albumCover = results.results[i].cover_art;
+
+
+
 })
 
 var albumPostInfo = $.ajax({
@@ -38,6 +50,10 @@ var albumPostInfo = $.ajax({
 albumPostInfo.done(function(results){
   console.log(results);
 })
+
+
+
+
 
 
 })
