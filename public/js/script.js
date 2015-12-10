@@ -10,7 +10,7 @@ var ablumInfo = $.ajax({
 });
 
 ablumInfo.done(function(results){
-console.log('success');
+//console.log('success');
 // var testAlbum = '<img src=' +results.results[0].cover_art+ '>';
 var albums = [];
 // $("#rightImg1").attr("src", 'images/ghost_in_the_machine.jpg');
@@ -18,7 +18,7 @@ for(i=0; i<results.results.length; i++){
 var albumCover = results.results[i].cover_art;
  albums.push(albumCover);
 }
-console.log(albums);
+//console.log(albums);
 // function randomAlbumCover(rand){
 // var rand = albums[Math.floor(Math.random() * albums.length)];
 // return rand
@@ -29,5 +29,15 @@ $("#rightImg2").attr("src", "images/" + albums[Math.floor(Math.random() * albums
 $("#rightImg3").attr("src", "images/" + albums[Math.floor(Math.random() * albums.length)]);
 
 })
+
+var albumPostInfo = $.ajax({
+  url: 'https://lit-fortress-6467.herokuapp.com/post',
+  method: 'POST'
+})
+
+albumPostInfo.done(function(results){
+  console.log(results);
+})
+
 
 })
