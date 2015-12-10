@@ -50,13 +50,13 @@ header h1{
 #trackHolder{
  height: 400px;
  /*border: blue solid 2px;*/
- padding: 20px;
+ padding: 10px;
 }
 
 #tracklist{
  margin: 30px 95px auto;
  width: 600px;
- padding: 150px;
+ padding: 50px;
  border: black solid 2px;
  background-color: #EEEEEE;
 }

@@ -2,46 +2,32 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Playlist Page</title>
-    <link rel="stylesheet" href="css/playlist_page.css" media="screen" title="no title" charset="utf-8">
+    <title>Splash Page</title>
+    <link rel="stylesheet" href="css/splash_page.css" media="screen" title="no title" charset="utf-8">
     <link href='https://fonts.googleapis.com/css?family=Nunito:300' rel='stylesheet' type='text/css'>
   </head>
   <body>
-      <!-- <select name="my_select" style="height: 40px; line-height: 100px;">
-        <option name="reggae"> Select your genre </option>
-        <option name="reggae"> Reggae </option>
-        <option name="blues"> Blues </option>
-      </select> -->
-      <header>
-      <h1>click an album to add its tracks to the bin</h1>
-      </header>
+    <header>
 
-      <div id='albumHolder'>
-      <img src="http://placehold.it/80x80" id='albumThumbNail1' height="80px" width="80px">
-      <img src="http://placehold.it/80x80" id='albumThumbNail2' height="80px" width="80px">
-      <img src="http://placehold.it/80x80" id='albumThumbNail3' height="80px" width="80px">
-      <img src="http://placehold.it/80x80" id='albumThumbNail4' height="80px" width="80px">
-      <img src="http://placehold.it/80x80" id='albumThumbNail5' height="80px" width="80px">
-      <!-- <img src="http://placehold.it/80x80" id='albumThumbNail6' height="80px" width="80px">
-      <img src="http://placehold.it/80x80" id='albumThumbNail7' height="80px" width="80px">
-      <img src="http://placehold.it/80x80" id='albumThumbNail8' height="80px" width="80px"> -->
+    </header>
+    <section>
+      <article class="leftMain">
+        <h3>track bin</h3>
+        <a href='playlist_page.html'><button>choose tracks</button></a>
+      </article>
+      <article class="rightMain">
+        <!-- <img src="resources/track.jpg" id='trainTrack' alt="track" height='700px' width='750px'/> -->
+    <img src="http://placehold.it/220x220" id='rightImg1' heigth='220px' width='220px'>
+    <img src="http://placehold.it/220x220" id='rightImg2' heigth='220px' width='220px'>
+    <img src="http://placehold.it/220x220" id='rightImg3' heigth='220px' width='220px'>
 
-      </div>
-
-<!-- <div class="album_container" id="album5"><img src="images/ghost_in_the_machine.jpg" /></div> -->
-
-      <section id='trackHolder'>
-        <div id='tracklist'></div>
-        <button type="button" name="button" id="clearTracks">clear tracks</button>
-        <button type="button" name="button" id="submitBin">submit bin</button>
-      </section>
-      <footer>
-        <p>	&copy; 2015 Jessica Herford</p>
-      </footer>
-
+    </article>
+    </section>
+    <footer>
+      <p>	&copy; 2015 Jessica Herford </p>
+    </footer>
   </body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-  <script type="text/javascript" src='js/script.js'>
+  <script type="text/javascript" src='js/script.js'></script>
 
-  </script>
 </html>
