@@ -62,9 +62,11 @@ button{
   height: 50px;
   border-radius: 5px;
 }
+
+
 .rightMain{
-  float:right;
-  /*display: inline;*/
+  float: right;
+  display: inline;
   width: 45%;
   background-color: blue;
   background-image: url(../resources/track.jpg);
@@ -73,28 +75,28 @@ button{
   height: auto;
   width: 750px;
   opacity: .19;
+  position: static;
 }
+
 #rightImg1{
+  position: relative;
   margin: 50px 0px 0px 270px;
+  opacity: 1;
+  z-index: 10;
   /*margin-left: 300px;*/
 }
+
 #rightImg2{
   margin: 50px 0px 0px 270px;
-
+  opacity: 1;
+  z-index: 2;
 }
 
 #rightImg3{
+  opacity: 1;
   margin: 50px 0px 0px 270px;
   padding-bottom: 30px;
-
-}
-
-#trainTrack{
-  float: right;
-  opacity: .19;
-  display: inline-block;
-  height: 700px;
-  width: 750px;
+  z-index: 2;
 }
 
 footer p{
