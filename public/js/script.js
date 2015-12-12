@@ -96,14 +96,14 @@ $("#submitBin").click(function(){
 })
 
 
-var albumPostInfo = $.ajax({
-  url: 'https://lit-fortress-6467.herokuapp.com/post',
-  method: 'POST'
-})
-
-albumPostInfo.done(function(results){
-  console.log(results);
-})
+// var albumPostInfo = $.ajax({
+//   url: 'https://lit-fortress-6467.herokuapp.com/post',
+//   method: 'POST'
+// })
+//
+// albumPostInfo.done(function(results){
+//   console.log(results);
+// })
 
 });
 
